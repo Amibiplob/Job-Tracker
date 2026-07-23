@@ -1,5 +1,5 @@
-import Home from "./pages/Home/Home";
+import Navbar from "./components/Navbar";
 
 export default function MainLayout() {
-  return <Home />;
+  return <Navbar />;
 }
