@@ -1,5 +1,9 @@
+import Banner from "./Banner";
+
 export default function Home() {
   return (
-    <div>Homesd</div>
-  )
+    <div>
+      <Banner />
+    </div>
+  );
 }
