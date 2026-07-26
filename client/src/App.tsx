@@ -6,6 +6,7 @@ import Register from "./pages/Register";
 import Dashboard from "./pages/Dashboard";
 import Applications from "./pages/Applications";
 import NewApplication from "./pages/NewApplication";
+import ApplicationDetails from "./pages/ApplicationDetails";
 
 export default function App() {
   return (
@@ -18,6 +19,7 @@ export default function App() {
           <Route path="dashboard" element={<Dashboard />} />
           <Route path="applications" element={<Applications />} />
           <Route path="applications/new" element={<NewApplication />} />
+          <Route path="applications/:id/details" element={<ApplicationDetails />} />
         </Route>
       </Routes>
     </BrowserRouter>
