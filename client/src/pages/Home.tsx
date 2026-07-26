@@ -65,7 +65,7 @@ const Home = () => {
     <main className="bg-slate-50">
       {/* ================= HERO ================= */}
       <section className="bg-gradient-to-r from-blue-700 via-blue-600 to-indigo-700 text-white">
-        <div className="mx-auto max-w-7xl px-6 py-24 lg:grid lg:grid-cols-2 lg:gap-16 lg:items-center">
+        <div className="container mx-auto px-6 py-24 lg:grid lg:grid-cols-2 lg:gap-16 lg:items-center">
           {/* Left */}
           <div>
             <span className="rounded-full bg-white/20 px-4 py-2 text-sm">
@@ -114,7 +114,7 @@ const Home = () => {
                     <p className="text-sm text-slate-500">Google</p>
                   </div>
 
-                  <span className="rounded-full bg-green-200 px-3 py-1 text-sm">
+                  <span className="rounded-full bg-green-200 px-3 my-auto py-2 text-sm">
                     Applied
                   </span>
                 </div>
@@ -125,7 +125,7 @@ const Home = () => {
                     <p className="text-sm text-slate-500">Microsoft</p>
                   </div>
 
-                  <span className="rounded-full bg-yellow-200 px-3 py-1 text-sm">
+                  <span className="rounded-full bg-yellow-200 px-3 my-auto py-2 text-sm">
                     Interview
                   </span>
                 </div>
@@ -136,7 +136,7 @@ const Home = () => {
                     <p className="text-sm text-slate-500">Amazon</p>
                   </div>
 
-                  <span className="rounded-full bg-blue-200 px-3 py-1 text-sm">
+                  <span className="rounded-full bg-blue-200 px-3 my-auto py-2 text-sm">
                     Offer
                   </span>
                 </div>
@@ -147,7 +147,7 @@ const Home = () => {
       </section>
 
       {/* ================= STATS ================= */}
-      <section className="mx-auto -mt-12 max-w-6xl px-6">
+      <section className="container mx-auto -mt-12 px-6">
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
           {stats.map((item) => {
             const Icon = item.icon;
@@ -169,7 +169,7 @@ const Home = () => {
       </section>
 
       {/* ================= FEATURES ================= */}
-      <section className="mx-auto max-w-7xl px-6 py-24">
+      <section className="container mx-auto px-6 py-24">
         <div className="text-center">
           <h2 className="text-4xl font-bold">Everything You Need</h2>
 
@@ -202,7 +202,7 @@ const Home = () => {
 
       {/* ================= HOW IT WORKS ================= */}
       <section className="bg-white py-24">
-        <div className="mx-auto max-w-6xl px-6">
+        <div className="container mx-auto px-6">
           <h2 className="text-center text-4xl font-bold">How It Works</h2>
 
           <div className="mt-16 grid gap-10 md:grid-cols-3">
@@ -239,7 +239,7 @@ const Home = () => {
 
       {/* ================= CTA ================= */}
       <section className="bg-blue-700 py-24 text-center text-white">
-        <div className="mx-auto max-w-3xl px-6">
+        <div className="container mx-auto px-6">
           <h2 className="text-4xl font-bold">Ready to Land Your Dream Job?</h2>
 
           <p className="mt-6 text-lg text-blue-100">
