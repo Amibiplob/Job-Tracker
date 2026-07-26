@@ -8,6 +8,7 @@ import Applications from "./pages/Applications";
 import NewApplication from "./pages/NewApplication";
 import ApplicationDetails from "./pages/ApplicationDetails";
 import EditApplication from "./pages/EditApplication";
+import About from "./pages/About";
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="login" element={<Login />} />
+          <Route path="about" element={<About />} />
           <Route path="register" element={<Register />} />
           <Route path="dashboard" element={<Dashboard />} />
           <Route path="applications" element={<Applications />} />
